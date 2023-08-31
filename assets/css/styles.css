@@ -1,0 +1,375 @@
+
+header {
+   position: fixed;
+   top: 30px;
+   left: 0;
+   width: 100%;
+}
+
+header .inner-main {
+   background-color: #fff;
+   padding: 1rem 2rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+   border-radius: 30px;
+}
+
+header .inner-main .inner-logo {
+   height: 30px;
+   width: auto;
+}
+
+header .inner-menu ul {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0;
+}
+
+header .inner-menu ul a {
+   display: block;
+   color: #000;
+   line-height: 100%;
+   padding: 0 6px;
+}
+
+header .icon-menu{
+   display: none;
+}
+
+@media (max-width: 991.98px) {
+   header .icon-menu {
+    display: block;
+    font-size: 20px;
+  }
+  .inner-menu {
+    display: none;
+  }
+}
+
+.section-1 {
+   background-image: url(../images/banner-bg.png);
+   height: 100vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.section-1 .inner-content {
+   height: 90vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: #fff;
+}
+
+.section-1 .inner-content .inner-title {
+   font-size: 2.5rem;
+   font-weight: 400;
+   margin-bottom: 2rem;
+}
+
+.section-2 {
+   margin-top: -180px;
+}
+
+.section-2 .inner-box {
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+   padding: 30px;
+   text-align: center;
+}
+
+.section-2 .inner-box .inner-icon {
+   width: 80px;
+   height: 80px;
+   background-color: var(--color-1);
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 40px;
+   border: 10px solid var(--color-1);
+   margin-bottom: 30px;
+}
+
+.section-2 .inner-box .inner-title {
+   font-size: 1.4rem;
+   margin-bottom: 20px;
+}
+
+.section-2 .inner-box .inner-desc {
+   font-size: small;
+   color: var(--color-text);
+}
+
+.section-3 {
+   margin-top: 80px;
+}
+
+.section-3 .inner-image {
+   text-align: center;
+}
+
+.section-3 img {
+   max-width: 100%;
+   height: auto;
+   color: var(--color-1);
+}
+
+.section-3 .inner-title {
+   font-weight: 400;
+   margin-bottom: 20px;
+   text-align: justify;
+}
+
+.section-3 .row {
+   padding-bottom: 80px;
+   border-bottom: 1px solid #ddd;
+   margin-top: 80px 0;
+}
+
+.section-3 .inner-left {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.section-3 .inner-right {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.section-4 {
+   padding: 80px;
+   background: url(../../assets/images/work-process-bg.png) center center no-repeat;
+   background-size: cover;
+}
+
+.section-4 .box-head {
+   text-align: center;
+   margin: 30px;
+   color: #fff;
+}
+.section-4 .box-head .inner-desc {
+   margin: 30px 0 60px;
+}
+
+.section-4 .box {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 20px;
+   text-align: center;
+   margin-bottom: 30px;
+   box-shadow: 10px 10px rgba(255, 255, 255, 0.2);
+   transition: all ease 0.4s;
+}
+
+.section-4 .box:hover {
+   transform: translateY(-15px);
+   transition: all ease 0.4s;
+}
+
+.section-4 .box .inner-title {
+   margin-top: 15px;
+}
+
+.section-4 .box .inner-desc {
+   color: var(--color-text);
+}
+
+.section-5 {
+   margin: 80px 0;
+}
+
+.section-5 .box-head {
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.section-5 .box-head .inner-title {
+   margin-bottom: 20px;
+}
+
+.section-5 .box {
+   background-color: #fff;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 30px;
+   padding: 30px;
+   margin-bottom: 1rem;
+}
+
+.section-5 .box .inner-icon {
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+
+.section-5 .box .inner-box {
+   margin-top: 20px;
+   display: flex;
+}
+
+.section-5 .box .inner-image {
+   margin-right: 15px;
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+.section-5 .box .inner-title {
+   font-size: 1.2rem;
+   color: var(--color-2);
+   margin: 0;
+}
+
+.section-5 .box .inner-desc {
+   margin: 0;
+}
+
+.section-6 {
+   background-color: var(--color-3);
+   padding: 80px 0;
+}
+
+.section-6 .inner-content {
+   text-align: center;
+   margin-bottom: 60px;
+}
+
+.section-6 .inner-box {
+   background-color: #fff;
+   padding: 3rem;
+   border-radius: 30px;
+   text-align: center;
+   margin-bottom: 1rem;
+}
+
+.section-6 .inner-price {
+   font-size: 1.6rem;
+   background-color: var(--color-1);
+   padding: 2rem 0;
+   border-radius: 30px;
+   margin: 1rem 0;
+}
+.section-6 .inner-box .box-2 {
+   background-color: var(--color-2);
+}
+
+.section-6 .inner-box .button {
+   margin: 10px;
+}
+
+.section-7 {
+   background-image: url(../images/fun-facts-bg.png);
+}
+
+.section-7 .inner-content {
+   min-height: 300px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: #fff;
+}
+
+.section-7 .inner-box .inner-digit {
+   font-size: 2rem;
+   font-weight: bold;
+}
+
+.section-7 .inner-box .inner-desc {
+   font-size: 1.4rem;
+}
+
+.section-8 {
+   margin: 80px 0;
+}
+
+.section-8 .box-head {
+   margin: 2rem 0;
+   text-align: center;
+}
+
+.section-8 .box-head .inner-title {
+   font-size: 2rem;
+   font-weight: 600;
+}
+
+.section-8 .inner-image img {
+   width: 100%;
+}
+
+.section-8 .inner-box {
+   text-align: center;
+}
+
+.section-8 .inner-box :nth-child(n) {
+   margin: 1rem 0;
+}
+
+.section-8 .inner-box .inner-title {
+   font-size: 1.2rem;
+   font-weight: 500;
+}
+
+.section-8 .inner-box .inner-desc {
+   font-size: smaller;
+}
+
+.section-9 {
+   background-color: var(--color-3);
+   padding: 80px 0;
+}
+
+.section-9 .box-head {
+   text-align: center;
+   margin: 2rem 0;
+}
+
+.section-9 .inner-left {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
+
+.section-9 .inner-left .inner-title {
+   font-size: 1.2rem;
+}
+
+.section-9 .inner-left .inner-desc {
+   color: var(--color-text);
+}
+
+.section-9 .inner-right [id] {
+   display: inline-block;
+   width: 100%;
+   padding: 1rem;
+   border-radius: 1rem;
+   border-style: none;
+   margin-bottom: 1rem;
+}
+
+footer {
+   padding: 40px 0;
+   text-align: center;
+}
+
+footer .nav {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 1rem;
+}
+
+footer a {
+   font-size: 2.4rem;
+   padding: 0 1.4rem;
+   color: #000;
+}
